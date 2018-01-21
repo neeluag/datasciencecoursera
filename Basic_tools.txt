@@ -1,0 +1,69 @@
+Important CLI commands:
+	pwd
+	clear 
+	ls
+	cd
+	mkdir
+	touch
+	cp
+	rm
+	mv
+	echo
+	date
+=====================================================================================================================================================================
+
+Basic markdown:
+	heading secondary-  start with ##
+	heading teriary-    start with ###
+	unordered list-     starts with *
+=====================================================================================================================================================================
+
+R commands:
+	To see available packages:
+		a<-available.packages()
+		head(rownames(a),10)
+
+	To install single R package:
+		install.packages(package_name)
+
+	To install multiple R packages:
+		place names of R packages in character vector
+		ex- install.packages(c("abc","pqr","xyz"))
+
+	To install R packages from BioConductor:
+		source("http://bioconductor.org/biocLite.R")
+		biocLite()
+
+	To load packages into R:  DO NOT PUT PACKAGE NAME IN QUOTES
+		library(package_name)
+
+	To search for loaded R package:
+		search()	
+
+	To find package:
+		find.packages(package_name)	
+=====================================================================================================================================================================
+
+RTools:
+	collection of tools necessary for building R packages in windows
+	https://cran.r-project.org/bin/windows/Rtools/Rtools.txt
+
+	LaTeX- To build .pdf form of documentation
+	Inno Setup installer- To build R installer
+
+	To verify RTools Installation
+		find_rtools()----this should return TRUE
+=====================================================================================================================================================================
+Types of Data Science Questions in order of difficulty:
+	Descriptive- Describe a set of data
+	Exploratory- Find relationships you didn't know about
+	Inferential- use a relatively small sample of data to say something about bigger population
+	Predictive- To use data on some objects to predict values for another object
+	casual- To find out what happens to one variable when you make another variable change
+	Mechanistic- Undrstand the exact changes in variables that lead to changes in other variables for individual objects
+=====================================================================================================================================================================
+
+Confounding is the term used for finding other variables that causes relationship between 2 variables
+
+
+	
